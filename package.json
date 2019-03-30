@@ -3,6 +3,10 @@
     "displayName": "Atlas Day",
     "publisher": "mstanaland",
     "description": "An initial draft of a light theme to my liking",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mstanaland/atlas-theme"
+    },
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.32.0"
