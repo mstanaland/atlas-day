@@ -1,0 +1,22 @@
+{
+    "name": "atlas-day",
+    "displayName": "Atlas Day",
+    "publisher": "mstanaland",
+    "description": "An initial draft of a light theme to my liking",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Atlas Day",
+                "uiTheme": "vs",
+                "path": "./themes/atlas-day-color-theme.json"
+            }
+        ]
+    }
+}
