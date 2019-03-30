@@ -1,8 +1,13 @@
-// 9210E0
 {
 	"name": "Atlas Day",
 	"type": "light",
 	"colors": {
+		// Title bar
+		"titleBar.activeBackground": "#F4F5F7",
+		"titleBar.activeForeground": "#253858",
+		"titleBar.inactiveBackground": "#F4F5F7",
+		"titleBar.inactiveForeground": "#B3BAC5",
+		"titleBar.border": "#F4F5F700",
 		// Far left toolbar
 		"activityBar.background": "#F4F5F7",
 		"activityBar.border": "#EBECF000",
@@ -75,13 +80,13 @@
 		"statusBar.debuggingBackground": "#D0021B",
 		"statusBar.debuggingForeground": "#FFFFFF",
 		"statusBar.debuggingBorder": "#BF2600",
-		"statusBar.noFolderBackground": "#0052CC",
+		"statusBar.noFolderBackground": "#42526E",
 		"statusBar.noFolderForeground": "#FFFFFF",
-		"statusBar.noFolderBorder": "#0747A6",
+		"statusBar.noFolderBorder": "#253858",
 		"statusBarItem.activeBackground": "#253858",
 		"statusBarItem.hoverBackground": "#505F79",
-		"statusBarItem.prominentBackground": "#00B8D9",
-		"statusBarItem.prominentHoverBackground": "#00C7E6",
+		"statusBarItem.prominentBackground": "#42526E",
+		"statusBarItem.prominentHoverBackground": "#505F79",
 		// Buttons
 		"button.background": "#0052CC",
 		"button.foreground": "#FFFFFF",
