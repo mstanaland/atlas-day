@@ -2,6 +2,8 @@
 	"name": "Atlas Day",
 	"type": "light",
 	"colors": {
+		// Sorry accessibility
+		"focusBorder": "#F4F5F700",
 		// Title bar
 		"titleBar.activeBackground": "#F4F5F7",
 		"titleBar.activeForeground": "#253858",
@@ -18,7 +20,7 @@
 		"activityBarBadge.foreground": "#FFFFFF",
 		// Sidebar (File explorer et al)
 		"sideBar.background": "#F4F5F7",
-		"sideBar.foreground": "#42526E",
+		"sideBar.foreground": "#505F79",
 		"sideBar.border": "#EBECF000",
 		"sideBar.dropBackground": "#B3D6FF99",
 		"sideBarTitle.foreground": "#42526E",
@@ -31,13 +33,14 @@
 		"list.hoverBackground": "#EBECF0",
 		"list.hoverForeground": "#172B4D",
 		"list.errorForeground": "#D0021B",
-		"list.warningForeground": "#42526E",
+		"list.warningForeground": "#505F79",
+		"list.invalidItemForeground": "#C1C7D0",
 		// Editor Groups and tabs
 		"editorGroup.border": "#DFE1E6",
 		"editorGroup.dropBackground": "#B3D6FF99",
 		"editorGroupHeader.noTabsBackground": "#F4F5F7",
 		"editorGroupHeader.tabsBackground": "#F4F5F7",
-		"editorGroupHeader.tabsBorder": "#EBECF0",
+		"editorGroupHeader.tabsBorder": "#EBECF000",
 		"editorGroup.emptyBackground": "#F4F5F7",
 		"tab.activeBackground": "#FFFFFF",
 		"tab.activeForeground": "#42526E",
@@ -48,7 +51,7 @@
 		// Editor
 		"editor.background": "#ffffff",
 		"editor.foreground": "#42526E",
-		"editor.lineHighlightBackground": "#F4F5F7",
+		"editor.lineHighlightBackground": "#F4F5F7BB",
 		"editor.lineHighlightBorder": "#F4F5F700",
 		"editorLineNumber.foreground": "#DFE1E6",
 		"editorLineNumber.activeForeground": "#97A0AF",
@@ -99,6 +102,7 @@
 		"gitDecoration.addedResourceForeground": "#009C77",
 		"gitDecoration.deletedResourceForeground": "#D0021B",
 		"gitDecoration.untrackedResourceForeground": "#009C77",
+		"gitDecoration.ignoredResourceForeground": "#C1C7D0",
 		// Settings
 		"settings.headerForeground": "#091E42",
 		"settings.modifiedItemIndicator": "#CE7E00",
