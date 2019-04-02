@@ -59,10 +59,10 @@
 		"editor.wordHighlightBorder": "#DFE1E600",
 		"editor.wordHighlightStrongBackground": "#DFE1E600",
 		"editor.wordHighlightStrongBorder": "#DFE1E600",
-		"editor.selectionBackground": "#C0DDFD",
-		"editor.selectionHighlightBackground": "#C0DDFD33",
-		"editor.selectionHighlightBorder": "#C0DDFD",
-		"editor.inactiveSelectionBackground": "#C0DDFDDD",
+		"editor.selectionBackground": "#D4E8FFCC",
+		"editor.selectionHighlightBackground": "#D4E8FF11", // surrounding matches
+		"editor.selectionHighlightBorder": "#D4E8FF", // surrounding matches
+		"editor.inactiveSelectionBackground": "#D4E8FF55",
 		"editorIndentGuide.background": "#EBECF0",
 		"editorIndentGuide.activeBackground": "#C1C7D0",
 		"editorRuler.foreground": "#B3D4FF",
@@ -72,6 +72,14 @@
 		"editorGutter.modifiedBackground": "#CE7E0099",
 		"editorGutter.addedBackground": "#009C7788",
 		"editorGutter.deletedBackground": "#D0021B",
+		// search
+		"editor.rangeHighlightBackground": "#00000000", // Line behind current selection
+		"editor.findMatchBackground": "#FFBDAD77",
+		"editor.findMatchBorder": "#2684FF",
+		"editor.findMatchHighlightBackground": "#FFBDAD77",
+		"editor.findMatchHighlightBorder": "#00000000",
+		"editor.findRangeHighlightBackground": "#FFBDAD77", // Don't know what this does
+		"editor.findRangeHighlightBorder": "#00000000", // Don't know what this does
 		// Scroll bar
 		"scrollbar.shadow": "#F4F5F700",
 		"scrollbarSlider.activeBackground": "#42526EDD",
