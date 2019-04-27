@@ -53,7 +53,7 @@
 		"editor.foreground": "#42526E",
 		"editor.lineHighlightBackground": "#F4F5F7BB",
 		"editor.lineHighlightBorder": "#F4F5F700",
-		"editorLineNumber.foreground": "#DFE1E6",
+		"editorLineNumber.foreground": "#EBECF0",
 		"editorLineNumber.activeForeground": "#97A0AF",
 		"editor.wordHighlightBackground": "#DFE1E600",
 		"editor.wordHighlightBorder": "#DFE1E600",
@@ -160,7 +160,12 @@
 		{
 			"name": "Strings",
 			"scope": [
-				"string"
+				"string",
+				"keyword.other.template.begin.js",
+				"keyword.other.template.end.js",
+				"meta.embedded.expression.jsx",
+				"keyword.other.substitution.begin.js",
+				"keyword.other.substitution.end.js"
 			],
 			"settings": {
 				"foreground": "#009C77"
@@ -182,7 +187,11 @@
 				"support.variable",
 				"variable.object.property",
 				"variable.parameter",
-				"variable.interpolation"
+				"variable.interpolation",
+				"meta.property.object.js",
+				"meta.embedded.expression.jsx",
+				"punctuation.section.embedded.begin.jsx",
+				"punctuation.section.embedded.end.jsx"
 			],
 			"settings": {
 				"foreground": "#3175DC"
@@ -231,10 +240,22 @@
 				"meta.tag.sgml.doctype",
 				"meta.tag.sgml.doctype string",
 				"meta.tag.sgml.doctype entity.name.tag",
-				"meta.tag.sgml punctuation.definition.tag.html"
+				"meta.tag.sgml punctuation.definition.tag.html",
+				"meta.group.braces.curly.js"
 			],
 			"settings": {
-				"foreground": "#A5ADBA"
+				"foreground": "#42526E"
+			}
+		},
+		{
+			"name": "Subtle punctuation",
+			"scope": [
+				"meta.tag.jsx",
+				"punctuation.definition.tag.begin.jsx",
+				"punctuation.definition.tag.end.jsx"
+			],
+			"settings": {
+				"foreground": "#B3BAC5"
 			}
 		},
 		{
@@ -245,20 +266,21 @@
 				"support.class"
 			],
 			"settings": {
-				// "fontStyle": "bold",
 				"foreground": "#CE7E00"
-				// "foreground": "#6554C0"
 			}
 		},
 		{
 			"name": "Functions",
 			"scope": [
 				"entity.name.function",
-				"support.function"
+				"support.function",
+				"variable.function.js",
+				"variable.language.super.js",
+				"entity.name.class.js",
+				"meta.class.extends.js"
 			],
 			"settings": {
 				"foreground": "#AF10E0"
-				// "foreground": "#CC10E0"
 			}
 		},
 		{
@@ -269,14 +291,11 @@
 			],
 			"settings": {
 				"foreground": "#42526E"
-				// "foreground": "#AF10E0"
 			}
 		},
 		{
 			"name": "js object-literal.key",
 			"scope": [
-				"meta.object-literal.key",
-				"meta.object-literal.key",
 				"string.quoted",
 				"keyword.operator.optional",
 				"support.type.map.key",
@@ -318,29 +337,14 @@
 			"name": "Comments",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#B3BAC5"
-			}
-		},
-		{
-			"name": "Comments: Preprocessor",
-			"scope": "comment.block.preprocessor",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#B3BAC5"
-			}
-		},
-		{
-			"name": "Comments: Documentation",
-			"scope": [
+				"punctuation.definition.comment",
+				"comment.block.preprocessor",
 				"comment.documentation",
 				"comment.block.documentation"
 			],
 			"settings": {
-				"foreground": "#B3BAC5"
+				"fontStyle": "italic",
+				"foreground": "#C1C7D0"
 			}
 		},
 		{
@@ -351,7 +355,8 @@
 				"constant",
 				"constant.other.symbol",
 				"constant.character.entity",
-				"punctuation.definition.entity"
+				"punctuation.definition.entity",
+				"variable.other.constant.js"
 			],
 			"settings": {
 				"foreground": "#CE7E00"
@@ -368,10 +373,23 @@
 			"name": "HTML: Attribute Names",
 			"scope": [
 				"meta.tag entity.other.attribute-name",
-				"entity.other.attribute-name.html"
+				"entity.other.attribute-name.html",
+				"entity.other.attribute-name.jsx"
 			],
 			"settings": {
 				"fontStyle": "italic",
+				"foreground": "#008DA6"
+			}
+		},
+		{
+			"name": "Object keys",
+			"scope": [
+				"meta.object-literal.key",
+				"meta.class.property.js",
+				"meta.group.braces.curly.js",
+				"string.unquoted.label.js"
+			],
+			"settings": {
 				"foreground": "#008DA6"
 			}
 		},
