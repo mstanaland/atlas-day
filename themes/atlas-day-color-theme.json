@@ -62,7 +62,7 @@
 		"editor.wordHighlightBorder": "#DFE1E600",
 		"editor.wordHighlightStrongBackground": "#DFE1E600",
 		"editor.wordHighlightStrongBorder": "#DFE1E600",
-		"editor.selectionBackground": "#D4E8FFCC",
+		"editor.selectionBackground": "#D4E8FF",
 		"editor.selectionHighlightBackground": "#D4E8FF11", // surrounding matches
 		"editor.selectionHighlightBorder": "#4C9AFF99", // surrounding matches
 		"editor.inactiveSelectionBackground": "#D4E8FF55",
@@ -79,8 +79,8 @@
 		"editor.rangeHighlightBackground": "#00000000", // Line behind current selection
 		"editor.findMatchBackground": "#D4E8FF",
 		// "editor.findMatchBorder": "#2684FF",
-		"editor.findMatchHighlightBackground": "#FFC40077",
-		"editor.findMatchHighlightBorder": "#00000000",
+		"editor.findMatchHighlightBackground": "#FFC40044",
+		"editor.findMatchHighlightBorder": "#FFC40066",
 		"editor.findRangeHighlightBackground": "#FFC40077", // Don't know what this does
 		"editor.findRangeHighlightBorder": "#00000000", // Don't know what this does
 		// Scroll bar
@@ -251,17 +251,6 @@
 			}
 		},
 		{
-			"name": "Subtle punctuation",
-			"scope": [
-				"meta.tag.jsx",
-				"punctuation.definition.tag.begin.jsx",
-				"punctuation.definition.tag.end.jsx"
-			],
-			"settings": {
-				"foreground": "#B3BAC5"
-			}
-		},
-		{
 			"name": "Classes",
 			"scope": [
 				"entity.name.type",
@@ -406,6 +395,15 @@
 			}
 		},
 		{
+			"name": "JSXNested",
+			"scope": [
+				"meta.tag.jsx",
+			],
+			"settings": {
+				"foreground": "#42526E"
+			}
+		},
+		{
 			"name": "CSS: Selectors",
 			"scope": [
 				"meta.selector",
@@ -442,14 +440,15 @@
 			"name": "Invalid - Illegal",
 			"scope": "invalid.illegal",
 			"settings": {
-				"foreground": "#BF2600"
+				"fontStyle": "italic",
+				"foreground": "#DE350B"
 			}
 		},
 		{
 			"name": "Exceptions",
 			"scope": "entity.name.exception",
 			"settings": {
-				"foreground": "#BF2600"
+				"foreground": "#DE350B"
 			}
 		},
 		{
@@ -609,6 +608,17 @@
 				"fontStyle": "",
 				"foreground": "#CE7E00"
 			}
-		}
-	]
+		},
+		{
+			"name": "Subtle punctuation",
+			"scope": [
+				"punctuation.definition.tag.begin.js.jsx",
+				"punctuation.definition.tag.end.js.jsx",
+				"punctuation.definition.tag.jsx"
+			],
+			"settings": {
+				"foreground": "#B3BAC5"
+			}
+		},
+	],
 }
