@@ -1,27 +1,27 @@
 {
-    "name": "atlas-day",
-    "displayName": "Atlas Day",
-    "publisher": "mstanaland",
-    "description": "An initial draft of a light theme to my liking",
-    "icon": "icon.png",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/mstanaland/atlas-theme"
-    },
-    "version": "0.1.0",
-    "engines": {
-        "vscode": "^1.32.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Atlas Day",
-                "uiTheme": "vs",
-                "path": "./themes/atlas-day-color-theme.json"
-            }
-        ]
-    }
+  "name": "atlas-day",
+  "displayName": "Atlas Day",
+  "publisher": "mstanaland",
+  "description": "An initial draft of a light theme to my liking",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mstanaland/atlas-theme"
+  },
+  "version": "0.2.0",
+  "engines": {
+    "vscode": "^1.32.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Atlas Day",
+        "uiTheme": "vs",
+        "path": "./themes/atlas-day-color-theme.json"
+      }
+    ]
+  }
 }
