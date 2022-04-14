@@ -232,7 +232,6 @@
       "name": "Types",
       "scope": ["support.type"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#42526E"
       }
     },
